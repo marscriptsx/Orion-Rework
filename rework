@@ -25,12 +25,12 @@ local OrionLib = {
 		},
 
 		Bliz_T = {
-		Main = Color3.fromRGB(25, 25, 25), -- Dark background
-Second = Color3.fromRGB(35, 35, 35), -- Slightly lighter dark for contrast
-Stroke = Color3.fromRGB(0, 255, 255), -- Cyan for details
-Divider = Color3.fromRGB(0, 200, 200), -- Darker cyan for dividers
-Text = Color3.fromRGB(255, 255, 255), -- White for texts
-TextDark = Color3.fromRGB(180, 180, 180) -- Light gray for secondary text
+	Main = Color3.fromRGB(25, 25, 25),
+			Second = Color3.fromRGB(32, 32, 32),
+			Stroke = Color3.fromRGB(60, 60, 60),
+			Divider = Color3.fromRGB(60, 60, 60),
+			Text = Color3.fromRGB(240, 240, 240),
+			TextDark = Color3.fromRGB(150, 150, 150)
 		}
 	},
 	SelectedTheme = "Bliz_T",
